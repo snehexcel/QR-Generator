@@ -6,8 +6,6 @@
     --border-color: #7fb7c9;
 }
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -22,6 +20,7 @@ body{
 }
 
 .box{
+    
     background-color: var(--primary-color);
     padding: 30px;
     width: 400px;
@@ -29,6 +28,7 @@ body{
 }
 
 .qr-header h1{
+    margin: auto;
     font-size: 26px;
     text-align: center;
     color: var(--secondary-color);
